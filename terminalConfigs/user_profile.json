@@ -1,6 +1,5 @@
 {
-  "theme": "atom",
-  "theme.fontSize": 20,
+  "theme": "tokyonight",
   "headerStyle": "mac",
   "hostname": "github.com",
   "typingSpeed": 100,
