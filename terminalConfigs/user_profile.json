@@ -1,0 +1,20 @@
+{
+  "theme": "dracula",
+  "headerStyle": "mac",
+  "hostname": "github.com",
+  "typingSpeed": 100,
+  "sourceType": "user",
+  "target": "yogeshwaran01",
+  "commands": [
+    "whoami",
+    "neofetch",
+    "languages",
+    "top-repos",
+    "ps",
+    "uptime",
+    "exit"
+  ],
+  "customCommands": {
+    "cat profile.txt": "A Chemical Engineer building software 😊"
+  }
+}

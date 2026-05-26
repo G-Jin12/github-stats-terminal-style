@@ -1,0 +1,44 @@
+{
+  "name": "github-stats-terminal-style",
+  "version": "2.0.0",
+  "description": "Generate Github Stats as like Terminal Interface with typing effects dynamically for your profile Readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshwaran01/github-stats-terminal-style.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "dev": "concurrently \"npm run build:watch\" \"nodemon\""
+  },
+  "bin": {
+    "github-stats-terminal": "dist/bin/github-stats-terminal.js"
+  },
+  "keywords": [
+    "github",
+    "github-stats",
+    "node",
+    "terminal",
+    "github-stats-card"
+  ],
+  "author": "yogeshwaran01",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yogeshwaran01/github-stats-terminal-style/issues"
+  },
+  "homepage": "https://github.com/yogeshwaran01/github-stats-terminal-style#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.10.0",
+    "asciichart": "^1.5.25",
+    "cli-table3": "^0.6.5",
+    "svg-term-cli": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/asciichart": "^1.5.8",
+    "@types/node": "^25.1.0",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
