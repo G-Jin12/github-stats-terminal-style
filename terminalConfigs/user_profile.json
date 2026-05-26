@@ -1,5 +1,5 @@
 {
-  "theme": "dracula",
+  "theme": "atom",
   "headerStyle": "mac",
   "hostname": "github.com",
   "typingSpeed": 100,
@@ -7,6 +7,7 @@
   "target": "G-Jin12",
   "commands": [
     "whoami",
+    "cat profile.txt",
     "neofetch",
     "uptime",
     "exit"
