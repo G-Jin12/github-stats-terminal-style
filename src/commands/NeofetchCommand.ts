@@ -35,10 +35,11 @@ export class NeofetchCommand implements TerminalCommand {
             };
         } else {
             const stats = context.stats as GithubUserStats;
+            const stats_repo = context.stats as GithubRepoStats;
             neoFetchData.info = {
                 "OS": "GitHub Profile",
                 "Repos": stats.repoCount.toString(),
-                "Forks": stats.forks.toString(),
+                "Forks": stats_repo.forks.toString(),
                 "Stars": stats.totalStars.toString()
             };
         }
