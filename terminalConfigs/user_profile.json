@@ -4,7 +4,7 @@
   "hostname": "github.com",
   "typingSpeed": 100,
   "sourceType": "user",
-  "target": "yogeshwaran01",
+  "target": "G-Jin12",
   "commands": [
     "whoami",
     "neofetch",
@@ -15,6 +15,6 @@
     "exit"
   ],
   "customCommands": {
-    "cat profile.txt": "A Chemical Engineer building software 😊"
+    "cat profile.txt": "Studying Artificial Intelligence at Graduate School 🫠"
   }
 }
