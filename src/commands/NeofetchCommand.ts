@@ -38,9 +38,8 @@ export class NeofetchCommand implements TerminalCommand {
             neoFetchData.info = {
                 "OS": "GitHub Profile",
                 "Repos": stats.repoCount.toString(),
-                "Gists": stats.gistCount.toString(),
-                "Stars": stats.totalStars.toString(),
-                "Issues": stats.issueCount.toString(),
+                "Forks": stats.forks.toString(),
+                "Stars": stats.totalStars.toString()
             };
         }
 
