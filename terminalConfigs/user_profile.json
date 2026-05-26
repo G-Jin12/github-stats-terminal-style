@@ -8,9 +8,6 @@
   "commands": [
     "whoami",
     "neofetch",
-    "languages",
-    "top-repos",
-    "ps",
     "uptime",
     "exit"
   ],
