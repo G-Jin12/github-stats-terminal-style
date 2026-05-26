@@ -1,9 +1,0 @@
-{
-  "sourceType": "user",
-  "target": "G-Jin12",
-  "theme": "dracula",
-  "headerStyle": "mac",
-  "hostname": "github.com",
-  "typingSpeed": 100,
-  "commands": ["whoami", "neofetch", "languages", "top-repos", "ps", "uptime", "exit"]
-}
