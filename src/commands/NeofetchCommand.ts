@@ -40,8 +40,6 @@ export class NeofetchCommand implements TerminalCommand {
                 "Repos": stats.repoCount.toString(),
                 "Gists": stats.gistCount.toString(),
                 "Stars": stats.totalStars.toString(),
-                "Followers": stats.followersCount.toString(),
-                "Pull Requests": stats.prCount.toString(),
                 "Issues": stats.issueCount.toString(),
             };
         }
